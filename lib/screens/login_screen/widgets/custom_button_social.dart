@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_current_position/constance.dart';
+import 'package:my_current_position/constants/constance.dart';
 
 class CustomButtonSocial extends StatelessWidget {
   final String text;
@@ -24,7 +24,7 @@ class CustomButtonSocial extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.only(left: 20, right: 40),
-              child: Image.network(
+              child: Image.asset(
                 googleLogoImage,
                 height: 25,
                 width: 25,
